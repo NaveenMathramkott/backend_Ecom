@@ -1,14 +1,13 @@
 {
-  "name": "ecommerce_2023",
+  "name": "backend_Ecom",
   "version": "1.0.0",
-  "description": "mern stack ecommerce",
+  "description": "Backend ecommerce",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix ../client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix ../client"
   },
   "author": "naveen mathramkott",
   "license": "ISC",
