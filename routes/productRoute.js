@@ -1,6 +1,6 @@
 import express from "express";
-import { checkAdmin, requireSignIn } from "../middlewares/authMiddleWare";
-import { createProductController } from "../controllers/productController";
+import { checkAdmin, requireSignIn } from "../middlewares/authMiddleWare.js";
+import { createProductController } from "../controllers/productController.js";
 import formidable from "express-formidable";
 
 const router = express.Router();
